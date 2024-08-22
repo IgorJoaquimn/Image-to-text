@@ -1,6 +1,8 @@
 # Image-to-text
 The presented code implements a solution for the "Image-to-Text" problem using an encoder-decoder based architecture with attention mechanisms. This approach makes use of convolutional networks (CNNs) and attention to process images and generate textual regularities.
-![Exemplo do dataset](https://miro.medium.com/max/1400/1*6BFOIdSHlk24Z3DFEakvnQ.png)
+
+![Exemplo do dataset](imgs/dog1.png)
+
 ## Implementation Summary
 
 ### Encoder
@@ -30,3 +32,7 @@ The data set employed is the Flickr8k, comprising 8,000 images with textual desc
 
 The proposed model employs advanced computational vision and natural language processing techniques to transform images into textual descriptions. The encoder-decoder architecture with attention mechanism enables the capture of the requisite contextual information for the generation of accurate and comprehensible descriptions. This is achieved through the utilisation of EfficientNet for feature extraction and attention mechanisms for sequential processing.
 Should assistance be required with the decoder or additional optimisations, I am available to provide support.
+
+![Exemplo do dataset](imgs/dog2.png)
+![Exemplo do dataset](imgs/horse.png)
+![Exemplo do dataset](imgs/snow.png)
